@@ -1,7 +1,7 @@
 const { TokenHelper } = require('./utils/common');
 
 async function main() {
-    const contractAddress = "0x66BFD0A03513B22c98142F386EB163b351a1fd8E";
+    const contractAddress = "0xd443A79aEE39C1D87e6F163Fc5F8E2BF3B2A90c6";
 
     try {
         const helper = new TokenHelper(contractAddress);

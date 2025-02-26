@@ -1,7 +1,7 @@
 const { ethers, upgrades } = require("hardhat");
 
 async function main() {
-    const PROXY_ADDRESS = "0x66BFD0A03513B22c98142F386EB163b351a1fd8E";
+    const PROXY_ADDRESS = "0xd443A79aEE39C1D87e6F163Fc5F8E2BF3B2A90c6";
 
     console.log("准备升级合约...");
     const ESGTokenV2 = await ethers.getContractFactory("ESGTokenV2");
